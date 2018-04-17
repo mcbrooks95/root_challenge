@@ -4,7 +4,7 @@ The way I went about this problem was breaking it up into 3 parts: extracting th
 
 The first part of extracting the command was relatively easy. I just had to open the file using f.open, and use the readlines command to get an array of commands.
 
-In the next part, I had to think of how I was going to model my data. I thought that making a Trip object, and a Driver object would make the most sense and each Driver object would have a variable number of trip objects.
+In the next part, I had to think of how I was going to model my data. I thought that making a Trip object and a Driver object would make the most sense and each Driver object would have a variable number of trip objects.
 
 The trip object would need a speed (so that way when you assign a trip to a driver, you check for whether the speed is between 5 and 100 and thus know whether to include it or not), as well as a total time and total milage so that way you can add those things to the drivers total time and total milage.
 
