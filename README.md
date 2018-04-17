@@ -18,5 +18,5 @@ Finally, we call the output_driver_info function which outputs the information w
 
 
 
-To run the unit tests: go to the main directory, and run "python -m unittest discover -v"
-To run the code, navigate into the "root_challenge" directory, edit the "input.txt" file based on what you want the drivers and trips to be, run "python drive_tracking.py", and then check the "output.txt" file.
+To run the unit tests: navigate into the main directory (first level of root_challenge), and run "python -m unittest discover -v"
+To run the code, navigate into the "root_challenge/root_challenge" directory, edit the "input.txt" file based on what you want the drivers and trips to be, run "python drive_tracking.py", and then check the "output.txt" file.
