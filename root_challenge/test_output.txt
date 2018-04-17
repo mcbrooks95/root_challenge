@@ -1,0 +1,6 @@
+A: 22 miles @ 65 mph
+D: 17 miles @ 35 mph
+E: 4 miles @ 6 mph
+F: 1 miles @ 60 mph
+B: 0 miles
+C: 0 miles
