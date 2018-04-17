@@ -76,7 +76,7 @@ def output_driver_info(drivers, filename):
 def main():
     commands = get_commands('input.txt')
     drivers = compute_commands(commands)
-    output_driver_info(drivers)
+    output_driver_info(drivers, 'output.txt')
 
 
 if __name__ == "__main__":
